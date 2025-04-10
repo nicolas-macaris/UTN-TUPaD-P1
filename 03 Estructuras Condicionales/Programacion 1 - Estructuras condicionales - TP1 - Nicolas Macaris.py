@@ -155,37 +155,36 @@
 # del año es y qué día es. El programa deberá utilizar esa información para imprimir por pantalla
 # si el usuario se encuentra en otoño, invierno, primavera o verano.
 # 
-hemisferioUsuario = input("Ingrese en que hemisferio se encuentra (N/S): ").upper()
-mes = input("Ingrese el mes: ").lower()
-dia = int(input("Ingrese el dia: "))
+# hemisferioUsuario = input("Ingrese en que hemisferio se encuentra (N/S): ").upper()
+# mes = input("Ingrese el mes: ").lower()
+# dia = int(input("Ingrese el dia: "))
 
-periodo1 = ['diciembre', 'enero', 'febrero', 'marzo']
-periodo2 = ['marzo', 'abril', 'mayo', 'junio']
-periodo3 = ['junio', 'julio', 'agosto', 'septiembre']
-periodo4 = ['septiembre', 'octubre', 'noviembre', 'diciembre']
+# periodo1 = ['diciembre', 'enero', 'febrero', 'marzo']
+# periodo2 = ['marzo', 'abril', 'mayo', 'junio']
+# periodo3 = ['junio', 'julio', 'agosto', 'septiembre']
+# periodo4 = ['septiembre', 'octubre', 'noviembre', 'diciembre']
 
-if (mes in periodo1):
-    msg = 'Invierno' if hemisferioUsuario == 'N' else 'Verano'
-    if (mes == periodo1[0] and dia <= 20) or (mes == periodo1[-1] and dia >= 21):
-        pass
-    else:
-        print(msg)
-if (mes in periodo2):
-    msg = 'Primavera' if hemisferioUsuario == 'N' else 'Otoño'
-    if (mes == periodo2[0] and dia <= 20) or (mes == periodo2[-1] and dia >= 21):
-        pass
-    else:
-        print(msg)
-if (mes in periodo3):
-    msg = 'Verano' if hemisferioUsuario == 'N' else 'Invierno'
-    if (mes == periodo3[0] and dia <= 20) or (mes == periodo3[-1] and dia >= 21):
-        pass
-    else:
-        print(msg)
-if (mes in periodo4):
-    msg = 'Otoño' if hemisferioUsuario == 'N' else 'Primavera'
-    if (mes == periodo4[0] and dia <= 20) or (mes == periodo4[-1] and dia >= 21):
-        pass
-    else:
-        print(msg)
-
+# if (mes in periodo1):
+#     msg = 'Invierno' if hemisferioUsuario == 'N' else 'Verano'
+#     if (mes == periodo1[0] and dia <= 20) or (mes == periodo1[-1] and dia >= 21):
+#         pass
+#     else:
+#         print(msg)
+# if (mes in periodo2):
+#     msg = 'Primavera' if hemisferioUsuario == 'N' else 'Otoño'
+#     if (mes == periodo2[0] and dia <= 20) or (mes == periodo2[-1] and dia >= 21):
+#         pass
+#     else:
+#         print(msg)
+# if (mes in periodo3):
+#     msg = 'Verano' if hemisferioUsuario == 'N' else 'Invierno'
+#     if (mes == periodo3[0] and dia <= 20) or (mes == periodo3[-1] and dia >= 21):
+#         pass
+#     else:
+#         print(msg)
+# if (mes in periodo4):
+#     msg = 'Otoño' if hemisferioUsuario == 'N' else 'Primavera'
+#     if (mes == periodo4[0] and dia <= 20) or (mes == periodo4[-1] and dia >= 21):
+#         pass
+#     else:
+#         print(msg)
