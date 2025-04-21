@@ -42,3 +42,101 @@
 # print(f'El total acumulado es: {count}')
 # 
 #########################################
+# Crea un juego en el que el usuario deba adivinar un número aleatorio entre 0 y 9. Al final, el
+# programa debe mostrar cuántos intentos fueron necesarios para acertar el número.
+# 
+# import random
+
+# randomNumber = random.randrange(0, 10)
+# inputUser = 10
+# count = 0
+
+# while inputUser != randomNumber:
+#     inputUser = int(input('Adivina el número, entre 0 y 9: '))
+#     count += 1
+# print(f'La cantidad de intentos hasta adiviar el numero fueron: {count}!')
+# 
+#########################################
+# Desarrolla un programa que imprima en pantalla todos los números pares comprendidos
+# entre 0 y 100, en orden decreciente.
+# 
+# for i in range(100, 0, -1):
+#     if i % 2 == 0:
+#         print(i)
+# 
+#########################################
+# Crea un programa que calcule la suma de todos los números comprendidos entre 0 y un
+# número entero positivo indicado por el usuario.
+# 
+# numUser = int(input('Ingrese un número entero positivo: '))
+# count = 0
+# 
+# for i in range(0, numUser):
+#     count += i
+# 
+# print(f'La suma de todos los numeros comprandidos entre 0 y {numUser} es: {count}')
+# 
+#########################################
+# Escribe un programa que permita al usuario ingresar 100 números enteros. Luego, el
+# programa debe indicar cuántos de estos números son pares, cuántos son impares, cuántos son
+# negativos y cuántos son positivos. (Nota: para probar el programa puedes usar una cantidad
+# menor, pero debe estar preparado para procesar 100 números con un solo cambio).
+#
+# maxNum = 100
+# numCount = 0
+# parCounter = 0
+# imparCounter = 0
+# positivoCounter = 0
+# negativoCounter = 0
+# 
+# while numCount != maxNum:
+#     numCount +=1
+#     userInput = int(input('Ingrese un número: '))
+#     if userInput == 0:
+#         continue
+#     if userInput % 2 == 0:
+#         parCounter += 1
+#     else:
+#         imparCounter += 1
+#     if userInput > 0: 
+#         positivoCounter += 1
+#     else: 
+#         negativoCounter += 1
+# 
+# print(f'''
+# De los números ingresados:
+# {parCounter} son pares.
+# {imparCounter} son impares.
+# {positivoCounter} son positivos.
+# {negativoCounter} son negativos.
+# ''')
+# 
+#########################################
+# Elabora un programa que permita al usuario ingresar 100 números enteros y luego calcule la
+# media de esos valores. (Nota: puedes probar el programa con una cantidad menor, pero debe
+# poder procesar 100 números cambiando solo un valor).
+# 
+# maxNum = 10
+# numCount = 0
+# acumulador = 0
+
+# while numCount != maxNum:
+#     numCount += 1
+#     userInput = int(input('Ingrese un número: '))
+#     acumulador += userInput
+    
+# print(f'La media de los valores ingresados es {acumulador / maxNum}')
+# 
+#########################################
+# Escribe un programa que invierta el orden de los dígitos de un número ingresado por el
+# usuario. Ejemplo: si el usuario ingresa 547, el programa debe mostrar 745.
+# 
+# inputUser = int(input('Ingrese un número de varios dígitos: '))
+# numero = inputUser
+# numeroInvertido = 0
+# while numero > 0:
+#     digito = numero % 10
+#     numeroInvertido = numeroInvertido * 10 + digito
+#     numero //= 10
+
+# print(f'El numero {inputUser} invertido es {numeroInvertido}')
