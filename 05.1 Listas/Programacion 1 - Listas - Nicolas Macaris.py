@@ -5,6 +5,8 @@
 # for i in range (1, 101):
 #     if i % 4 == 0:
 #         lista.append(i)
+# ### o
+# lista = list(range(4, 101, 4))
 # print(lista)
 # 
 ###############################################
