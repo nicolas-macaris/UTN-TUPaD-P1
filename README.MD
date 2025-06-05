@@ -4,7 +4,7 @@
 
 ## ✨ Estudiante  
 - **Nombre:** Macaris, Nicolás
-- **Comisión:** M2025-25
+- **Comisión:** M2025-12
 
 ## 📂 Descripción del Repositorio  
 Este repositorio almacena todas los trabajos prácticos realizados durante la cursada de **Programación 1**.  
